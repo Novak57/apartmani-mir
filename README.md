@@ -4,10 +4,10 @@ Moderna verzija stranice za apartmane MIR Jerkić u Drašnicama.
 
 Otvori lokalno: `index.html`
 
-## GitHub Pages
+## Pregled online (GitHub Pages)
 
-Nakon pusha na `main`, GitHub Actions automatski objavljuje site.
+Javni preview:
 
-URL (nakon što je repo kreiran):
+**https://novak57.github.io/apartmani-mir/**
 
-`https://<tvoj-github-user>.github.io/apartmani-mir/`
+Repo: https://github.com/Novak57/apartmani-mir
