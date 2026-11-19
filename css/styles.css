@@ -855,7 +855,7 @@ h2 {
 
 .places {
   display: grid;
-  grid-template-columns: 1.3fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   margin-top: 36px;
 }
@@ -2052,4 +2052,14 @@ h2 {
   font-size: 1.05rem;
   line-height: 1;
   vertical-align: -1px;
+}
+
+.place {
+  background: linear-gradient(160deg, var(--sea-mid), var(--sea));
+}
+
+@media (max-width: 1100px) and (min-width: 981px) {
+  .places {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
