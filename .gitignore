@@ -7,3 +7,4 @@ Desktop.ini
 *.tmp
 _*.py
 archive/
+_to_delete/
