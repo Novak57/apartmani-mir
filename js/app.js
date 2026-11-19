@@ -726,7 +726,12 @@ const PLACES = {
   drasnice: { title: "place.d.title", body: "place.d.body", image: "img/drasnice.webp" },
   makarska: { title: "place.m.title", body: "place.m.body", image: "img/makarska.webp" },
   split: { title: "place.s.title", body: "place.s.body", image: "img/split.webp" },
-  dubrovnik: { title: "place.k.title", body: "place.k.body", image: "img/dubrovnik.webp" },
+  dubrovnik: {
+    title: "place.k.title",
+    body: "place.k.body",
+    image: "img/dubrovnik.webp",
+    credit: { text: "Foto: japus, Wikimedia Commons, CC BY 2.5", href: "https://commons.wikimedia.org/wiki/File:Dubrovnik-panorama_from_town_walls.JPG" },
+  },
 };
 
 const nav = document.getElementById("nav");
@@ -1092,6 +1097,17 @@ function renderPlace() {
       p.textContent = paragraph;
       placeBody.append(p);
     });
+  if (place.credit) {
+    const credit = document.createElement("p");
+    credit.className = "place-credit";
+    const link = document.createElement("a");
+    link.href = place.credit.href;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.textContent = place.credit.text;
+    credit.append(link);
+    placeBody.append(credit);
+  }
 }
 
 function openPlace(id) {

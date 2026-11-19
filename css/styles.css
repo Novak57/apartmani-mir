@@ -2063,3 +2063,14 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.place-credit {
+  margin-top: 18px;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.place-credit a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
