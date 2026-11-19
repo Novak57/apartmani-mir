@@ -2046,3 +2046,10 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.review__flag {
+  margin-right: 4px;
+  font-size: 1.05rem;
+  line-height: 1;
+  vertical-align: -1px;
+}
