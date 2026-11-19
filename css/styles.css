@@ -420,8 +420,8 @@ textarea {
 
 .reviews__list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
   margin-top: 48px;
 }
 
@@ -2004,4 +2004,45 @@ h2 {
 .footer__base-links {
   display: flex;
   gap: 18px;
+}
+
+/* ---------- Privola na formi ---------- */
+.consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 18px 0 4px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.consent input {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+  accent-color: var(--sea-mid);
+  cursor: pointer;
+}
+
+.consent a {
+  color: var(--sea-mid);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.consent.is-invalid {
+  color: #a8472c;
+}
+
+.consent.is-invalid input {
+  outline: 2px solid #a8472c;
+  outline-offset: 2px;
+}
+
+@media (max-width: 1100px) and (min-width: 761px) {
+  .reviews__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

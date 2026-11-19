@@ -18,7 +18,7 @@ const i18n = {
     "foot.top": "Na vrh",
     "foot.privacy": "Politika privatnosti",
     "rev.score": "4,9",
-    "rev.count": "75 recenzija na Googleu",
+    "rev.count": "76 recenzija na Googleu",
     "rev.title": "Što kažu gosti",
     "rev.all": "Pročitajte sve recenzije na Googleu",
     "rev.orig": "Recenzije su prikazane na izvornom jeziku.",
@@ -77,6 +77,10 @@ const i18n = {
     "form.err": "Slanje nije uspjelo. Nazovite +385 91 592 1197 ili pokušajte ponovo.",
     "form.sending": "Šaljem…",
     "form.invalid": "Provjerite označena polja.",
+    "form.consent.pre": "Pročitao/la sam i prihvaćam",
+    "form.consent.link": "politiku privatnosti",
+    "form.consent.post": ".",
+    "form.consentErr": "Za slanje upita potrebno je prihvatiti politiku privatnosti.",
     "hero.slide": "Fotografija",
     "form.subject": "Rezervacija MIR — {apt} ({arrive} / {leave})",
     "form.m.name": "Ime",
@@ -125,7 +129,7 @@ const i18n = {
     "foot.top": "Back to top",
     "foot.privacy": "Privacy policy",
     "rev.score": "4.9",
-    "rev.count": "75 reviews on Google",
+    "rev.count": "76 reviews on Google",
     "rev.title": "What guests say",
     "rev.all": "Read all reviews on Google",
     "rev.orig": "Reviews are shown in their original language.",
@@ -184,6 +188,10 @@ const i18n = {
     "form.err": "Sending failed. Call +385 91 592 1197 or try again.",
     "form.sending": "Sending…",
     "form.invalid": "Please check the highlighted fields.",
+    "form.consent.pre": "I have read and accept the",
+    "form.consent.link": "privacy policy",
+    "form.consent.post": ".",
+    "form.consentErr": "Please accept the privacy policy to send your enquiry.",
     "hero.slide": "Photo",
     "form.subject": "MIR booking — {apt} ({arrive} / {leave})",
     "form.m.name": "Name",
@@ -236,7 +244,7 @@ const i18n = {
     "foot.top": "Nach oben",
     "foot.privacy": "Datenschutz",
     "rev.score": "4,9",
-    "rev.count": "75 Bewertungen auf Google",
+    "rev.count": "76 Bewertungen auf Google",
     "rev.title": "Das sagen unsere Gäste",
     "rev.all": "Alle Bewertungen auf Google lesen",
     "rev.orig": "Bewertungen werden in der Originalsprache angezeigt.",
@@ -291,6 +299,10 @@ const i18n = {
     "form.err": "Senden fehlgeschlagen. Rufen Sie +385 91 592 1197 an oder versuchen Sie es erneut.",
     "form.sending": "Wird gesendet…",
     "form.invalid": "Bitte prüfen Sie die markierten Felder.",
+    "form.consent.pre": "Ich habe die",
+    "form.consent.link": "Datenschutzerklärung",
+    "form.consent.post": " gelesen und akzeptiere sie.",
+    "form.consentErr": "Bitte akzeptieren Sie die Datenschutzerklärung, um die Anfrage zu senden.",
     "hero.slide": "Foto",
     "form.subject": "MIR Reservierung — {apt} ({arrive} / {leave})",
     "form.m.name": "Name",
@@ -343,7 +355,7 @@ const i18n = {
     "foot.top": "Torna su",
     "foot.privacy": "Informativa sulla privacy",
     "rev.score": "4,9",
-    "rev.count": "75 recensioni su Google",
+    "rev.count": "76 recensioni su Google",
     "rev.title": "Cosa dicono gli ospiti",
     "rev.all": "Leggi tutte le recensioni su Google",
     "rev.orig": "Le recensioni sono mostrate nella lingua originale.",
@@ -398,6 +410,10 @@ const i18n = {
     "form.err": "Invio non riuscito. Chiamate +385 91 592 1197 oppure riprovate.",
     "form.sending": "Invio…",
     "form.invalid": "Controlla i campi evidenziati.",
+    "form.consent.pre": "Ho letto e accetto la",
+    "form.consent.link": "politica sulla privacy",
+    "form.consent.post": ".",
+    "form.consentErr": "Per inviare la richiesta è necessario accettare l'informativa sulla privacy.",
     "hero.slide": "Foto",
     "form.subject": "Prenotazione MIR — {apt} ({arrive} / {leave})",
     "form.m.name": "Nome",
@@ -450,7 +466,7 @@ const i18n = {
     "foot.top": "Do góry",
     "foot.privacy": "Polityka prywatności",
     "rev.score": "4,9",
-    "rev.count": "75 opinii w Google",
+    "rev.count": "76 opinii w Google",
     "rev.title": "Co mówią goście",
     "rev.all": "Przeczytaj wszystkie opinie w Google",
     "rev.orig": "Opinie są wyświetlane w oryginalnym języku.",
@@ -505,6 +521,10 @@ const i18n = {
     "form.err": "Wysyłanie nie powiodło się. Zadzwoń +385 91 592 1197 lub spróbuj ponownie.",
     "form.sending": "Wysyłanie…",
     "form.invalid": "Sprawdź zaznaczone pola.",
+    "form.consent.pre": "Przeczytałem/am i akceptuję",
+    "form.consent.link": "politykę prywatności",
+    "form.consent.post": ".",
+    "form.consentErr": "Aby wysłać zapytanie, zaakceptuj politykę prywatności.",
     "hero.slide": "Zdjęcie",
     "form.subject": "Rezerwacja MIR — {apt} ({arrive} / {leave})",
     "form.m.name": "Imię",
@@ -557,7 +577,7 @@ const i18n = {
     "foot.top": "Nahoru",
     "foot.privacy": "Ochrana osobních údajů",
     "rev.score": "4,9",
-    "rev.count": "75 recenzí na Googlu",
+    "rev.count": "76 recenzí na Googlu",
     "rev.title": "Co říkají hosté",
     "rev.all": "Přečtěte si všechny recenze na Googlu",
     "rev.orig": "Recenze jsou zobrazeny v původním jazyce.",
@@ -612,6 +632,10 @@ const i18n = {
     "form.err": "Odeslání se nepovedlo. Zavolejte +385 91 592 1197 nebo to zkuste znovu.",
     "form.sending": "Odesílání…",
     "form.invalid": "Zkontrolujte označená pole.",
+    "form.consent.pre": "Přečetl/a jsem si a souhlasím se",
+    "form.consent.link": "zásadami ochrany osobních údajů",
+    "form.consent.post": ".",
+    "form.consentErr": "Pro odeslání poptávky je nutné souhlasit se zásadami ochrany osobních údajů.",
     "hero.slide": "Fotografie",
     "form.subject": "Rezervace MIR — {apt} ({arrive} / {leave})",
     "form.m.name": "Jméno",
@@ -1086,7 +1110,7 @@ function showFormNote(kind, text) {
 }
 
 function markField(el, invalid) {
-  const field = el.closest(".field");
+  const field = el.closest(".field, .consent");
   if (field) field.classList.toggle("is-invalid", invalid);
   if (invalid) el.setAttribute("aria-invalid", "true");
   else el.removeAttribute("aria-invalid");
@@ -1110,6 +1134,7 @@ function validateForm() {
     [leave, Boolean(leave.value) && (!arrive.value || leave.value >= arrive.value)],
     [guests, Number(guests.value) >= 1 && Number(guests.value) <= 10],
     [apt, Boolean(apt.value)],
+    [form.elements.consent, form.elements.consent.checked],
   ];
 
   let firstInvalid = null;
@@ -1119,7 +1144,7 @@ function validateForm() {
   });
 
   if (firstInvalid) {
-    showFormNote("is-err", t("form.invalid"));
+    showFormNote("is-err", t(firstInvalid.name === "consent" ? "form.consentErr" : "form.invalid"));
     firstInvalid.focus();
     return false;
   }
@@ -1160,6 +1185,7 @@ form.addEventListener("submit", async (e) => {
   payload.append("Apartman", data.apt);
   payload.append("Poruka", data.note || "—");
   payload.append("Jezik", lang);
+  payload.append("Privola", "Prihvaćena politika privatnosti");
 
   submitBtn.disabled = true;
   submitBtn.textContent = t("form.sending");
