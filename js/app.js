@@ -730,7 +730,7 @@ const PLACES = {
     title: "place.k.title",
     body: "place.k.body",
     image: "img/dubrovnik.webp",
-    credit: { text: "Foto: Diego Delso, delso.photo, Wikimedia Commons, CC BY-SA 3.0", href: "https://commons.wikimedia.org/wiki/File:Casco_viejo_de_Dubrovnik,_Croacia,_2014-04-14,_DD_04.JPG" },
+    credit: { text: "Foto: Matthias Mullie, Unsplash", href: "https://unsplash.com/photos/RvDc461s1EI" },
   },
 };
 
