@@ -2081,3 +2081,34 @@ h2 {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* ---------- 404 ---------- */
+.page-404 .hero--404 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.page-404 .hero__copy {
+  position: relative;
+  padding-bottom: clamp(56px, 12vh, 120px);
+}
+
+.nf-code {
+  margin: 0 0 18px;
+  font-family: var(--serif);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  color: #d9b77f;
+}
+
+.page-404 .hero__lead {
+  margin-bottom: 0;
+}
+
+.page-404 .nf-en {
+  margin: 10px 0 30px;
+  font-size: 0.95rem;
+  color: rgba(247, 241, 230, 0.66);
+}

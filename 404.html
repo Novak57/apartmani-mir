@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stranica nije pronađena · Apartmani MIR Jerkić</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="theme-color" content="#0f3d4a" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" sizes="180x180" />
+    <script>
+      // Stare WordPress adrese (npr. /kontakt/, /en/gallery/) vode na odgovarajući dio nove stranice.
+      (function () {
+        var path = location.pathname.toLowerCase().replace(/\/+$/, "/");
+        var m = path.match(/^\/(en|de|it|pl|cs)(\/|$)/);
+        var lang = m ? m[1] : "";
+        var rest = m ? path.slice(m[0].length - 1) : path;
+        var hash = "";
+        if (/^\/(kontakt|contact|contatto)/.test(rest)) hash = "#kontakt";
+        else if (/^\/(galerija|gallery|galeria|galleria|galerie)/.test(rest)) hash = "#apartmani";
+        else if (/^\/(o-drasnic|about-drasnice|riguardo-a-drasnice|uber-drasnice)/.test(rest)) hash = "#drasnice";
+        else if (rest === "/" && lang) hash = "#top";
+        if (hash) location.replace("/" + (lang ? "?lang=" + lang : "") + (hash === "#top" ? "" : hash));
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css?v=20261123" />
+  </head>
+  <body class="page-legal page-404">
+    <a class="skip" href="#sadrzaj">Preskoči na sadržaj</a>
+
+    <header class="nav" id="nav">
+      <a class="brand" href="/">
+        <strong>MIR</strong>
+        <span>Jerkić · Drašnice</span>
+      </a>
+      <nav>
+        <ul class="nav__links nav__links--legal">
+          <li><a class="nav__cta" href="/#kontakt">Rezervirajte</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="sadrzaj">
+      <section class="hero hero--404" aria-labelledby="nf-title">
+        <div class="hero__slides">
+          <div class="hero__slide is-active">
+            <img
+              src="/img/hero/DJI_0021-1920.webp"
+              srcset="/img/hero/DJI_0021-1280.webp 1280w, /img/hero/DJI_0021-1920.webp 1920w"
+              sizes="100vw"
+              alt=""
+              fetchpriority="high"
+            />
+          </div>
+        </div>
+        <div class="hero__shade"></div>
+        <div class="hero__copy wrap">
+          <p class="nf-code">404</p>
+          <h1 id="nf-title">Ova stranica ne postoji.</h1>
+          <p class="hero__lead">
+            Možda ste došli preko stare poveznice. More, plaža i apartmani su i dalje tu, na početnoj stranici.
+          </p>
+          <p class="hero__lead nf-en" lang="en">Page not found. Everything you need is on the homepage.</p>
+          <div class="hero__actions">
+            <a class="btn" href="/">Na početnu</a>
+            <a class="btn btn--ghost" href="/#kontakt">Pošaljite upit</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
