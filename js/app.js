@@ -1,4 +1,4 @@
-const WEB3FORMS_KEY = "";
+const WEB3FORMS_KEY = "f7c971b7-e6a1-4602-9b94-5467e8fbdacf";
 
 const i18n = {
   hr: {
